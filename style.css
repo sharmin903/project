@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    margin: auto;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.col-1{
+    width: 8.33%;
+
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.header-background{
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+a.logo-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+    height: auto;
+}
+
+.hero .hero-background{
+    background-image: url('./img/drive-download-20250223T152733Z-001/banner.png');
+    
+}
+.hero .hero-inner{
+    text-align: center;
+    padding: 200px;
+    color: rgb(255, 249, 249);
+}
+.hero .hero-inner h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.hero .hero-inner a{
+ text-decoration: none;
+ background-color: transparent;
+ border: 1px solid rgb(120, 120, 238) ;
+ padding: 20px;
+ border-radius: 5px;
+ color: white;
+ font-size: 20px 50px;
+ font-weight: 600;
+ margin-top: 40px;
+ display: inline-block;
+}
+.hero .bannar-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.section-break{
+    font-size: 20px;
+    font-weight: 200;
+}
+.pure-design-bg-color{
+    background-color: #d3d4d4;
+}
+.pure-design-inner{
+    padding: 80px 200px;
+    text-align: center;
+}
+.pure-design-inner h2{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.pure-design-inner p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+.service{
+    padding: 60px;
+}
+.service-inner{
+    text-align: center;
+    padding: 10px 60px;
+}
+.service-inner h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.service-inner p{
+    font-size: 16px;
+    color:#A7AFC5;
+    padding: 20px 0px;
+}
+.photo{
+    background-color: #F6F9F9;
+    padding: 80px 0px;
+
+}
+.photo-inner{
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+footer{
+    padding: 20px;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+    padding: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+}
